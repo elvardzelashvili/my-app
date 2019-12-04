@@ -1,0 +1,160 @@
+.app-main {
+ 
+  background: lightgrey;
+  margin: auto;
+  text-align: center;
+}
+.App-header{
+  margin-top: 20px;
+  padding: 10px;
+}
+.app-ul {
+  list-style-type: none;
+  color: black;
+  width: 100%;
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.person-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.person-row input {
+  margin-left: 20px;
+  align-content: right;
+  text-decoration: none;
+  outline: none;
+}
+.person-label {
+  font-size: 20px;
+  color: black;
+  width: 500px;
+  font-weight: bold;
+}
+.person-center {
+  margin: auto;
+  text-align: center;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+  outline: none;
+  width: 100px;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input:hover {
+  border-color: limegreen;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 30px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+.newForm {
+  display: none;
+
+}
+th {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+th, td, tr {
+  padding-bottom: 20px;
+}
